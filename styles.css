@@ -1,0 +1,144 @@
+.info-goals {
+  display: flex;
+  padding: 16px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  border-bottom: 1px solid lightgray;
+}
+.experience {
+  border: 20px solid blue;
+}
+.Goals-icon {
+  font-size: 30px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience-text {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  margin: 18px;
+}
+i {
+  justify-items: center;
+  color: #2f3636;
+  font-size: 25px;
+}
+.goal {
+  font-size: 19px;
+  font-weight: bold;
+}
+.timeline-b {
+  border-bottom: 0;
+}
+.scopes-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+.project-number {
+  border: 1px solid darkslategray;
+  border-radius: 50%;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  background-color: #a3a3c7;
+  color: #fff;
+}
+.project-text1 {
+  font-weight: bold;
+}
+.project-text {
+  border-bottom: 3px dotted lightgray;
+}
+.container-team {
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: column;
+}
+.primary {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Timeline {
+  padding-left: 30px;
+}
+
+.font-medium {
+  font-weight: 700;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.info-container.row > * {
+  /* chọn tất cả những thằng con nằm trong thẻ có class= infor-container và row  */
+  padding-left: 0;
+  padding-right: 0;
+}
+.info-container {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .info-goals {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .primary {
+    flex-direction: row;
+  }
+  #project {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .experience-team {
+    height: 550px;
+  }
+  .experience-scopes {
+    height: 378px;
+  }
+  .Scopes {
+    border-bottom: 0;
+  }
+  .experience-primary {
+    height: 378px;
+  }
+  .experience-timeline {
+    height: 928px;
+  }
+  .border-b {  /*(!important) được sử dụng để xác định rằng thuộc tính border-bottom này là ưu tiên cao nhất và sẽ ghi đè lên bất kỳ định nghĩa CSS nào khác cho border-bottom của phần tử.*/
+    border-bottom: 1px solid #bba7a7 !important;
+  }
+  .border-bt {
+    border-bottom: 0;
+  }
+  .goal-gap {
+    gap: 30px;
+  }
+  .goals {
+    height: 550px;
+  }
+  .timeline-b {
+    border: 10px solid blue;
+  }
+  .info-container {
+    border: 10px solid blue;
+  }
+  .timeline-bt {
+    border: 10px solid blue;
+  }
+}
